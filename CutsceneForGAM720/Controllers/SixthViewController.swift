@@ -7,13 +7,26 @@
 //
 
 import UIKit
+import AVFoundation
 
 class SixthViewController: UIViewController {
 
+     var player: AVAudioPlayer = AVAudioPlayer()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
+        do {
+            let audioPath =
+                Bundle.main.path(forResource: "question", ofType: "wav")
+            try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
+        } catch {
+            // Error
+        }
+        
+        player.play()
     }
     
 

@@ -7,14 +7,28 @@
 //
 
 import UIKit
+import AVFoundation
 
 class NinthViewController: UIViewController {
+    
+    var player: AVAudioPlayer = AVAudioPlayer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+           do {
+                let audioPath =
+                    Bundle.main.path(forResource: "ohno", ofType: "wav")
+                try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
+            } catch {
+                // Error
+            }
+            
+            player.play()
+        }
+        
         // Do any additional setup after loading the view.
-    }
+    
     
 
     /*

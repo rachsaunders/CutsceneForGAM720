@@ -21,6 +21,10 @@
 		18AC378A24535CB6007E4285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AC378824535CB6007E4285 /* Main.storyboard */; };
 		18AC378C24535CB7007E4285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AC378B24535CB7007E4285 /* Assets.xcassets */; };
 		18AC378F24535CB7007E4285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AC378D24535CB7007E4285 /* LaunchScreen.storyboard */; };
+		18AE9B342458A5A100818DC0 /* appear.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18AE9B332458A5A100818DC0 /* appear.wav */; };
+		18AE9B362458A80500818DC0 /* question.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18AE9B352458A80500818DC0 /* question.wav */; };
+		18AE9B382458A82200818DC0 /* ohno.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18AE9B372458A82200818DC0 /* ohno.wav */; };
+		18AE9B3A2458A83400818DC0 /* zoom.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18AE9B392458A83400818DC0 /* zoom.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		18AC378B24535CB7007E4285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18AC378E24535CB7007E4285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18AC379024535CB7007E4285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AE9B332458A5A100818DC0 /* appear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = appear.wav; sourceTree = "<group>"; };
+		18AE9B352458A80500818DC0 /* question.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = question.wav; sourceTree = "<group>"; };
+		18AE9B372458A82200818DC0 /* ohno.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ohno.wav; sourceTree = "<group>"; };
+		18AE9B392458A83400818DC0 /* zoom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = zoom.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +100,10 @@
 			children = (
 				18AC378124535CB6007E4285 /* CutsceneForGAM720 */,
 				18AC378024535CB6007E4285 /* Products */,
+				18AE9B332458A5A100818DC0 /* appear.wav */,
+				18AE9B352458A80500818DC0 /* question.wav */,
+				18AE9B372458A82200818DC0 /* ohno.wav */,
+				18AE9B392458A83400818DC0 /* zoom.wav */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,9 +185,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AE9B382458A82200818DC0 /* ohno.wav in Resources */,
 				18AC378F24535CB7007E4285 /* LaunchScreen.storyboard in Resources */,
 				18AC378C24535CB7007E4285 /* Assets.xcassets in Resources */,
 				18AC378A24535CB6007E4285 /* Main.storyboard in Resources */,
+				18AE9B3A2458A83400818DC0 /* zoom.wav in Resources */,
+				18AE9B342458A5A100818DC0 /* appear.wav in Resources */,
+				18AE9B362458A80500818DC0 /* question.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
