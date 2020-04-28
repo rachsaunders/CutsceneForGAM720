@@ -46,10 +46,10 @@
             </objects>
             <point key="canvasLocation" x="139" y="138"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="qW0-oW-2Pj">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="L7C-tR-bLX" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="L7C-tR-bLX" customClass="SecondViewController" customModule="CutsceneForGAM720" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uuI-ge-l99">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -86,10 +86,10 @@
             </objects>
             <point key="canvasLocation" x="987" y="138"/>
         </scene>
-        <!--View Controller-->
+        <!--Third View Controller-->
         <scene sceneID="Icl-PW-Xma">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="BK1-fX-e2b" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BK1-fX-e2b" customClass="ThirdViewController" customModule="CutsceneForGAM720" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LRT-Bq-tgv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -128,49 +128,10 @@
             </objects>
             <point key="canvasLocation" x="1830" y="138"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="J4V-GN-Esw">
-            <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Ebk-sO-jZG" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fKg-Le-iOw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wsp-OW-URn">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KPT-0V-KuR">
-                                <rect key="frame" x="339" y="661" width="50" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="C6P-oU-J84"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="Zm2-7s-Fk7"/>
-                                    <constraint firstAttribute="width" constant="50" id="cr6-ns-6et"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="pKP-nh-Fio"/>
-                                </constraints>
-                                <state key="normal" title="Button" image="next"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="Wsp-OW-URn" firstAttribute="leading" secondItem="ncD-Wp-HXQ" secondAttribute="leading" id="5Cp-7y-L2Y"/>
-                            <constraint firstItem="ncD-Wp-HXQ" firstAttribute="bottom" secondItem="Wsp-OW-URn" secondAttribute="bottom" id="7MY-0q-6MW"/>
-                            <constraint firstItem="ncD-Wp-HXQ" firstAttribute="bottom" secondItem="KPT-0V-KuR" secondAttribute="bottom" constant="25" id="bF7-pC-Ozx"/>
-                            <constraint firstItem="Wsp-OW-URn" firstAttribute="top" secondItem="ncD-Wp-HXQ" secondAttribute="top" id="keZ-4Q-IxR"/>
-                            <constraint firstItem="ncD-Wp-HXQ" firstAttribute="trailing" secondItem="KPT-0V-KuR" secondAttribute="trailing" constant="25" id="uTO-cb-bpK"/>
-                            <constraint firstItem="ncD-Wp-HXQ" firstAttribute="trailing" secondItem="Wsp-OW-URn" secondAttribute="trailing" id="xaL-9J-YrK"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="ncD-Wp-HXQ"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="hoa-R8-lZJ"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kES-D0-dN7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2535" y="138"/>
-        </scene>
-        <!--View Controller-->
+        <!--Forth View Controller-->
         <scene sceneID="YNb-ci-Zcj">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="dSC-kH-lfa" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="dSC-kH-lfa" customClass="ForthViewController" customModule="CutsceneForGAM720" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hDx-jv-cFS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -207,12 +168,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y8I-qn-b62" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2535" y="138"/>
+            <point key="canvasLocation" x="2616" y="138"/>
         </scene>
-        <!--View Controller-->
+        <!--Fifth View Controller-->
         <scene sceneID="2n4-9W-t3F">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="5Mb-gJ-CXw" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="5Mb-gJ-CXw" customClass="FifthViewController" customModule="CutsceneForGAM720" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6VY-UE-5iJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -249,12 +210,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="191-fZ-clC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3286" y="138"/>
+            <point key="canvasLocation" x="3496" y="138"/>
         </scene>
-        <!--View Controller-->
+        <!--Sixth View Controller-->
         <scene sceneID="KF8-xV-bFU">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="E8c-27-ffl" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="E8c-27-ffl" customClass="SixthViewController" customModule="CutsceneForGAM720" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dNx-RH-cw1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -293,10 +254,10 @@
             </objects>
             <point key="canvasLocation" x="138" y="875"/>
         </scene>
-        <!--View Controller-->
+        <!--Seventh View Controller-->
         <scene sceneID="Voz-C9-Dzd">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="bAQ-qB-87T" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="bAQ-qB-87T" customClass="SeventhViewController" customModule="CutsceneForGAM720" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Eka-bN-SoO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -335,10 +296,10 @@
             </objects>
             <point key="canvasLocation" x="987" y="875"/>
         </scene>
-        <!--View Controller-->
+        <!--Eighth View Controller-->
         <scene sceneID="AqK-wR-cPX">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="OUj-qW-PrB" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="OUj-qW-PrB" customClass="EighthViewController" customModule="CutsceneForGAM720" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o3S-Sf-UpW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -375,12 +336,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4tR-j8-jai" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1829" y="890"/>
+            <point key="canvasLocation" x="1829" y="889"/>
         </scene>
-        <!--View Controller-->
+        <!--Ninth View Controller-->
         <scene sceneID="GAg-kn-UIW">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="2Xg-M6-fob" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="2Xg-M6-fob" customClass="NinthViewController" customModule="CutsceneForGAM720" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7S9-TM-JRI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -417,12 +378,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ibE-Bl-HA3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2535" y="889"/>
+            <point key="canvasLocation" x="2616" y="889"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iZN-g1-qsq">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="85o-S9-saU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController modalPresentationStyle="fullScreen" id="9Rt-0g-eoR" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gmH-dF-g3e">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
@@ -441,8 +401,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="dDH-kO-JHN"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="85o-S9-saU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3286" y="889"/>
+            <point key="canvasLocation" x="3496" y="889"/>
         </scene>
     </scenes>
     <resources>

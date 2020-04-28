@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1810FF0224586AE40037E0E4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810FF0124586AE40037E0E4 /* SecondViewController.swift */; };
+		1810FF0424586B4A0037E0E4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810FF0324586B4A0037E0E4 /* ThirdViewController.swift */; };
+		1810FF0624586B520037E0E4 /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810FF0524586B520037E0E4 /* ForthViewController.swift */; };
+		1810FF0824586B5B0037E0E4 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810FF0724586B5B0037E0E4 /* FifthViewController.swift */; };
+		1810FF0A24586B640037E0E4 /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810FF0924586B640037E0E4 /* SixthViewController.swift */; };
+		1810FF0C24586B6D0037E0E4 /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810FF0B24586B6D0037E0E4 /* SeventhViewController.swift */; };
+		1810FF0E24586B7A0037E0E4 /* EighthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810FF0D24586B7A0037E0E4 /* EighthViewController.swift */; };
+		1810FF1024586B850037E0E4 /* NinthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810FF0F24586B850037E0E4 /* NinthViewController.swift */; };
 		18AC378324535CB6007E4285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AC378224535CB6007E4285 /* AppDelegate.swift */; };
 		18AC378524535CB6007E4285 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AC378424535CB6007E4285 /* SceneDelegate.swift */; };
 		18AC378724535CB6007E4285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AC378624535CB6007E4285 /* ViewController.swift */; };
@@ -16,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1810FF0124586AE40037E0E4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1810FF0324586B4A0037E0E4 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		1810FF0524586B520037E0E4 /* ForthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
+		1810FF0724586B5B0037E0E4 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		1810FF0924586B640037E0E4 /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		1810FF0B24586B6D0037E0E4 /* SeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
+		1810FF0D24586B7A0037E0E4 /* EighthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighthViewController.swift; sourceTree = "<group>"; };
+		1810FF0F24586B850037E0E4 /* NinthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinthViewController.swift; sourceTree = "<group>"; };
 		18AC377F24535CB6007E4285 /* CutsceneForGAM720.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CutsceneForGAM720.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AC378224535CB6007E4285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18AC378424535CB6007E4285 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +53,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1810FF0024586AA90037E0E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18AC378624535CB6007E4285 /* ViewController.swift */,
+				1810FF0124586AE40037E0E4 /* SecondViewController.swift */,
+				1810FF0324586B4A0037E0E4 /* ThirdViewController.swift */,
+				1810FF0524586B520037E0E4 /* ForthViewController.swift */,
+				1810FF0724586B5B0037E0E4 /* FifthViewController.swift */,
+				1810FF0924586B640037E0E4 /* SixthViewController.swift */,
+				1810FF0B24586B6D0037E0E4 /* SeventhViewController.swift */,
+				1810FF0D24586B7A0037E0E4 /* EighthViewController.swift */,
+				1810FF0F24586B850037E0E4 /* NinthViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1810FF1124586C820037E0E4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				18AC378824535CB6007E4285 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		1810FF1224586C8B0037E0E4 /* Other Files */ = {
+			isa = PBXGroup;
+			children = (
+				18AC378224535CB6007E4285 /* AppDelegate.swift */,
+				18AC378424535CB6007E4285 /* SceneDelegate.swift */,
+				18AC378D24535CB7007E4285 /* LaunchScreen.storyboard */,
+			);
+			path = "Other Files";
+			sourceTree = "<group>";
+		};
 		18AC377624535CB6007E4285 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +106,10 @@
 		18AC378124535CB6007E4285 /* CutsceneForGAM720 */ = {
 			isa = PBXGroup;
 			children = (
-				18AC378224535CB6007E4285 /* AppDelegate.swift */,
-				18AC378424535CB6007E4285 /* SceneDelegate.swift */,
-				18AC378624535CB6007E4285 /* ViewController.swift */,
-				18AC378824535CB6007E4285 /* Main.storyboard */,
+				1810FF0024586AA90037E0E4 /* Controllers */,
+				1810FF1124586C820037E0E4 /* Storyboard */,
 				18AC378B24535CB7007E4285 /* Assets.xcassets */,
-				18AC378D24535CB7007E4285 /* LaunchScreen.storyboard */,
+				1810FF1224586C8B0037E0E4 /* Other Files */,
 				18AC379024535CB7007E4285 /* Info.plist */,
 			);
 			path = CutsceneForGAM720;
@@ -138,9 +186,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1810FF0624586B520037E0E4 /* ForthViewController.swift in Sources */,
+				1810FF0224586AE40037E0E4 /* SecondViewController.swift in Sources */,
+				1810FF0C24586B6D0037E0E4 /* SeventhViewController.swift in Sources */,
 				18AC378724535CB6007E4285 /* ViewController.swift in Sources */,
+				1810FF1024586B850037E0E4 /* NinthViewController.swift in Sources */,
+				1810FF0A24586B640037E0E4 /* SixthViewController.swift in Sources */,
+				1810FF0E24586B7A0037E0E4 /* EighthViewController.swift in Sources */,
+				1810FF0424586B4A0037E0E4 /* ThirdViewController.swift in Sources */,
 				18AC378324535CB6007E4285 /* AppDelegate.swift in Sources */,
 				18AC378524535CB6007E4285 /* SceneDelegate.swift in Sources */,
+				1810FF0824586B5B0037E0E4 /* FifthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
